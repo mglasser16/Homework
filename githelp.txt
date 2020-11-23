@@ -1,0 +1,19 @@
+# read
+# https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
+# to see what's going on
+git status
+
+# to see what branches are available
+git branch
+
+# to check out a branch
+git checkout MYBRANCH
+
+# to rebase my branch from someone else's branch
+git checkout MYBRANCH
+git rebase OTHERBRANCH
+
+# if there are conflicts, open the files to correct them, then do
+git commit
+
